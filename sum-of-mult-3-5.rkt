@@ -1,3 +1,5 @@
+#Sum of multiples of 3 or 5 under n in LISP
+
 (define (add-helper lst)
   (if (null? lst) 0
       (+ (car lst) (add-helper (cdr lst)))))
